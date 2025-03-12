@@ -1,4 +1,4 @@
-Catalogue descriptions of subseries of parliamentarian pay warrants in [TNA, SP 28](https://discovery.nationalarchives.gov.uk/details/r/C13570). The official catalogue only describes these documents at piece level. Within each piece, the warrants are sorted into subseries based on the organization that they relate to, although there are sometimes stray warrants in the wrong subseries. The data here adds this extra level, giving part and folio numbers for each subseries.
+Catalogue descriptions of subseries of parliamentarian pay warrants in [TNA, SP 28](https://discovery.nationalarchives.gov.uk/details/r/C13570). The official catalogue only describes pieces 1A to 119 at piece level. Within each piece, the warrants are sorted into subseries based on the organization that they relate to, although there are sometimes stray warrants in the wrong subseries. The data here adds this extra level for pieces 1A to 57 (1642 to 1648), giving part and folio numbers for each subseries.
 
 ## Data structure
 
