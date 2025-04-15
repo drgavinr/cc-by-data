@@ -17,3 +17,5 @@ See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/m
 ## Copyright
 
 Includes Crown Copyright data from Public Records and TNA's catalogue, available under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+Gavin Robinson may own database right in the files as a whole and the structure of the data. If any such rights subsist, they are waived under a CC-BY licence.
