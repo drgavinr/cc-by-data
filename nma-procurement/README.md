@@ -1,5 +1,14 @@
 # New Model Army procurement records
 
+## Contents
+
+- [Introduction](#introduction)
+- [The procurement process](#the-procurement-process)
+- [Data for contracts, deliveries, and issues](#data-for-contracts-deliveries-and-issues)
+  - [Fields](#fields)
+- [Warrants and receipts for payment](#warrants-and-receipts-for-payment)
+- [Copyright](#copyright)
+
 ## Introduction
 
 The process of procuring equipment for the New Model Army from 1645 onwards has left detailed records that can be used to reconstruct transactions between suppliers, mostly in London, and military administrators. This is obviously relevant to military history but also has potential value for business history. The records can show what trade a business owner was actually practising. This can often be obscure for two reasons. First, women were usually described by their marital status even when they owned and ran businesses in their own right. Second, although men often had occupational descriptors, these can be misleading, especially in London, because it is not always clear whether a descriptor refers to actual trade or livery company membership, which were increasingly different things in the early-modern period.
