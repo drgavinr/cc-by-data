@@ -6,7 +6,7 @@
 - [The procurement process](#the-procurement-process)
 - [Data for contracts, deliveries, and issues](#data-for-contracts-deliveries-and-issues)
   - [Fields](#fields)
-- [Warrants and receipts for payment](#warrants-and-receipts-for-payment)
+- [Warrants and receipts for payments](#warrants-and-receipts-for-payments)
 - [Copyright](#copyright)
 
 ## Introduction
