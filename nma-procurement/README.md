@@ -53,3 +53,5 @@ Warrants for payment signed by the Army Committee are in a separate series in TN
 ## Copyright
 
 Includes Crown Copyright data from TNA's catalogue, available under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+Gavin Robinson holds database right in the whole file and the structure of the data, and copyright in the documentation. These rights are waived under CC-BY.
