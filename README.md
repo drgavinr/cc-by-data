@@ -1,5 +1,5 @@
 # cc-by-data
-Datasets available under CC-BY and/or OGL. These are either:
+Datasets available under CC-BY and/or OGL, mostly relating to the British Civil Wars. These are either:
 
 - subsets of data from the [By The Sword Linked wiki](https://github.com/drgavinr/btsl/) released separately under a more permissive licence
 - separate datasets that were never imported to By The Sword Linked
