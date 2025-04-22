@@ -5,7 +5,7 @@ Catalogue descriptions of subseries of parliamentarian pay warrants in [TNA, SP 
 ## Contents
 
 - [File formats](#file-formats)
-- [Data structre](#data-structure)
+- [Data structure](#data-structure)
 - [Copyright](#copyright)
 
 ## File formats
