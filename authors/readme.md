@@ -1,6 +1,12 @@
 # Authors
 Data for all authors who had pages at [By The Sword Linked](https://github.com/drgavinr/btsl/). This only includes authors who wrote publications or theses relevant to the British Civil Wars but who were not alive at the time.
 
+## Contents
+
+- [File formats](#file-formats)
+- [Data structure](#data-structure)
+- [Copyright](#copyright)
+
 ## File formats
 
 See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/main/delimited-text.md) for more details.
