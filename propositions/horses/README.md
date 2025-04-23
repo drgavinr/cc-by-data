@@ -121,3 +121,5 @@ The original manuscripts are Public Records in Crown Copyright. The text is avai
 The transcript provided here does not have its own copyright because it is an unoriginal copy of existing works.
 
 No rights are believed to subsist in the structure of the XML tags. If any such rights do subsist, they are waived under a CC-BY licence.
+
+Gavin Robinson holds copyright in this documentation. This right is waived under CC-BY.
