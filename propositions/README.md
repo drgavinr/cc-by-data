@@ -6,6 +6,7 @@
 - [Transcripts](#transcripts)
 - [Other documents](#other-documents)
 - [References](#references)
+- [Copyright](#copyright)
 
 ## Introduction
 
@@ -15,8 +16,9 @@ The Propositions was a system of voluntary contributions to the parliamentarian 
 
 Here you can find transcripts of the following sources:
 
-- [horses](ADD URL): accounts of horses contributed in London and elsewhere.
-- [south-essex](ADD URL): accounts of money received on the Propositions and the 5th and 20th assessment in the southern division of the county of Essex (hundreds of Barstable, Becontree, and Chafford).
+- [horses](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses): accounts of horses contributed in London and elsewhere.
+  - [horses/signs](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses/signs): dataset of London building signs extracted from the horse accounts.
+- [south-essex](https://github.com/drgavinr/cc-by-data/tree/main/propositions/south-essex): accounts of money received on the Propositions and the 5th and 20th assessment in the southern division of the county of Essex (hundreds of Barstable, Becontree, and Chafford).
 
 ## Other documents
 
@@ -47,3 +49,7 @@ These sources have not been transcribed here but may be relevant to future resea
 [^3]: [British History Online: Commons Journal, volume 2, p. 808](https://www.british-history.ac.uk/commons-jrnl/vol2/pp807-809#h3-sec-a15).
 [^4]: See M.A.E. Green (ed.) *Calendar of the Committee for Advance of Money* (London, HMSO, 1888).
 [^5]: [British History Online: Acts and Ordinances, volume 1, pp. 145-155](https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum/pp145-155).
+
+## Copyright
+
+Gavin Robinson holds copyright in this documentation. This right is waived under CC-BY. See readme files in directories at lower levels for copyright and licence information for each dataset.
