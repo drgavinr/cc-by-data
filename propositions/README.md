@@ -5,8 +5,8 @@
 - [Introduction](#introduction)
 - [Transcripts](#transcripts)
 - [Other documents](#other-documents)
-- [References](#references)
 - [Copyright](#copyright)
+- [References](#references)
 
 ## Introduction
 
@@ -42,6 +42,10 @@ These sources have not been transcribed here but may be relevant to future resea
 - many other army officers' account are likely to include horses and arms received on the Propositions.
 - parish loss accounts often mention Propositions contributions. Where possible, these could be compared with the official accounts of treasurers and commissaries.
 
+## Copyright
+
+Gavin Robinson holds copyright in this documentation. This right is waived under CC-BY. See readme files in directories at lower levels for copyright and licence information for each dataset.
+
 ## References
 
 [^1]: [British History Online: Acts and Ordinances, volume 1, pp. 6-9](https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum/pp6-9).
@@ -49,7 +53,3 @@ These sources have not been transcribed here but may be relevant to future resea
 [^3]: [British History Online: Commons Journal, volume 2, p. 808](https://www.british-history.ac.uk/commons-jrnl/vol2/pp807-809#h3-sec-a15).
 [^4]: See M.A.E. Green (ed.) *Calendar of the Committee for Advance of Money* (London, HMSO, 1888).
 [^5]: [British History Online: Acts and Ordinances, volume 1, pp. 145-155](https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum/pp145-155).
-
-## Copyright
-
-Gavin Robinson holds copyright in this documentation. This right is waived under CC-BY. See readme files in directories at lower levels for copyright and licence information for each dataset.
