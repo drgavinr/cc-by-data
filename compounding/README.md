@@ -70,4 +70,4 @@ The original text is out of copyright because it was published under Crown Copyr
 
 There is no new copyright in the transcript because it is an unoriginal copy of an existing work.
 
-Gavin Robinson holds database right in the whole files and the structure of the data. These rights are waived under CC-BY.
+Gavin Robinson holds database right in the whole files and the structure of the data, and copyright in this documentation. These rights are waived under CC-BY.
