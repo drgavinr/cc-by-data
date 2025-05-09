@@ -1,5 +1,9 @@
 # New Model Army procurement records
 
+Information about records of buying material for the New Model Army, which can be used for military history or business history.
+
+See also [nma-at](https://github.com/drgavinr/cc-by-data/blob/main/nma-procurement/nma-at.md) for notes and references about the establishment of the artillery train.
+
 ## Contents
 
 - [Introduction](#introduction)
