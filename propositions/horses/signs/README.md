@@ -14,6 +14,8 @@ This data catalogues buildings in London that were known by signs, such as 'The 
 
 See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/main/delimited-text.md) for more details of file formats.
 
+All spellings are silently modernized. Original spellings can be found in the [Propositions horse accounts](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses) in TNA, SP 28/131.
+
 | Field name | Description |
 | --- | --- |
 | Sign | The name of the sign. In the original manuscript and in normal usage these are usually prefixed with 'The' but this is omitted here. |
