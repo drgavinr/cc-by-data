@@ -23,15 +23,17 @@ The commodities covered are not purely military. The army was also supplied with
 
 ## The procurement process
 
-Supply of equipment for the New Model Army was administered by the Army Committee and the Ordnance Office. The process usually started with a contract between the supplier and the Army Committee. The Army Committee notified the Ordnance Office of contracts that had been made, and this seems to be how some contracts have survived to the present. The supplier delivered the goods to the Ordnance Office, which kept accounts of deliveries. Payment was authorized by warrants signed by the Army Committee and directed to the treasury. When a payment was made, a receipt was written on the same sheet of paper as the warrant. Warrants that had been paid in full were retained by the treasury, and most survive.
+Supply of equipment for the New Model Army was administered by the Army Committee and the Ordnance Office. The process usually started with a contract between the supplier and the Army Committee. The Army Committee notified the Ordnance Office of contracts that had been made, and this seems to be how some contracts have survived to the present. The supplier delivered the goods to the Ordnance Office, which kept accounts of deliveries. The surviving accounts of deliveries are probably a complete record for the ranges of dates covered. Payment was authorized by warrants signed by the Army Committee and directed to the treasury. When a payment was made, a receipt was written on the same sheet of paper as the warrant. Warrants that had been paid in full were retained by the treasury, and most survive.
 
-The Ordnance Office kept equipment until it was needed by the army. Issues of equipment were authorized by warrants signed by the Army Committee and directed to the Ordnance Office. The Ordnance Office copied warrants and receipts for issues into books, some of which survive.
+The Ordnance Office kept equipment until it was needed by the army. Issues of equipment were authorized by warrants signed by the Army Committee and directed to the Ordnance Office. The Ordnance Office copied warrants and receipts for issues into books, some of which survive. The surviving copies sometimes name individual troopers who received saddles and pistols.
 
 ## Data for contracts, deliveries, and issues
 
 The data provided here catalogues manuscript volumes that record contracts, deliveries, and issues from 1645 onwards. There may be other relevant volumes that are not listed here. This is only a catalogue at volume level. Individual entries have not been transcribed or linked into records of transactions.
 
 Where volumes overlap, they sometimes disagree on details of the same transactions, especially dates.
+
+Records of deliveries are probably complete for the ranges of dates covered.
 
 See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/main/delimited-text.md) for more details of file formats.
 
