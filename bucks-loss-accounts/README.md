@@ -2,6 +2,8 @@
 
 Catalogue of accounts of losses from the British Civil Wars by parishes in Buckinghamshire.
 
+Transcripts of some accounts can be viewed at the [Winslow History website](http://winslow-history.org.uk/seventeenthc-articles1646.shtm).
+
 ## Contents
 
 - [Introduction](#introduction)
@@ -42,6 +44,7 @@ See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/m
 | Description | Description of the document giving the place it covers, and the name of a person if it is an individual account. Usually quoted or paraphrased from the original manuscript, retaining original spelling but silently expanding abbreviations. SP 28/221 was not consulted at the same time as the rest because it was unfit for production, so the description is based on older notes that have less detail and do not retain original spellings. |
 | Pages | Number of pages in this document that contain any text. Each side of a folio counted separately: each recto counts as 1 page and each verso counts as 1 page. |
 | Notes | Any other information. |
+| Transcript | URL of a transcript of this document if one is available online. These are currently all at the [Winslow History website](http://winslow-history.org.uk/).
 
 ### Units
 
