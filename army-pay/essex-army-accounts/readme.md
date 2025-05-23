@@ -23,7 +23,7 @@ The army's chief treasurer was Sir Gilbert Gerard, 1st Baronet, based in London.
 - William Jessop, based in London.
 - Francis Vernon, who travelled with the army.
 
-In 1643, the army also had a parrallel system of finance in which John Fenton levied contributions of money directly from civilians in the areas where the army was quartered, and paid it directly to the army. Fenton handled much less money than Gerard and his deputies.
+In 1643, the army also had a parallel system of finance in which John Fenton levied contributions of money directly from civilians in the areas where the army was quartered, and paid it directly to the army. Fenton handled much less money than Gerard and his deputies.
 
 Most payments to the army were authorized by warrants signed by the Earl of Essex. These stated the name of the payee, the amount, the date when payment was authorized, and usually some information about the purpose of the money. Payees include:
 
