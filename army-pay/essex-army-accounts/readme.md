@@ -83,6 +83,8 @@ The delimited text files contain the same fields for both account books:
 | --- | --- |
 | ID | Unique number to identify this row of data. |
 | Markup | Codes representing the semantic structure of the document. These could be used to convert to XML, HTML, or wikitext, or to extract data into a database. See following section for more details of values. |
+| Folio | Folio number. |
+| Date | Date of account book entry in YYYY-MM-DD format. |
 | Left column | Transcript of text entered in the left hand column of the manuscript pages. In Vernon's account, this usually includes a number for each entry. The meaning of these numbers is unknown. In both accounts, this column can also include other notes. |
 | Main column | Transcript of the main text of the manuscript, except that where markup is 'pb', this column contains folio numbers, which were added later by archivists and are not part of the original text. |
 | Pounds | The number of pounds for this entry. |
