@@ -2,9 +2,18 @@
 
 Datasets available under CC-BY and/or OGL, mostly relating to the British Civil Wars.
 
+## Recent additions
+
+- 23 June 2026:
+  - [army-pay](https://github.com/drgavinr/cc-by-data/tree/main/army-pay) now includes transcript of [establishment of Essex's army](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/establishment.md).
+  - added [sheffeild-troopers](https://github.com/drgavinr/cc-by-data/tree/main/sheffeild-troopers) which contains data about trooper's in James Sheffeild's horse troop in Essex's army.
+
+## Contents
+
 - [army-pay](https://github.com/drgavinr/cc-by-data/tree/main/army-pay): catalogues of pay warrants and transcripts of treasurers' accounts.
   - [essex-army-accounts](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/essex-army-accounts): transcripts of the accounts of the treasurers for the Earl of Essex's army.
   - [warrants](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/warrants): catalogue of sub-series of pay warrants in TNA, SP 28.
+  - [establishment](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/establishment.md): transcript of establishment and rates of pay for Essex's army.
   - [military-careers](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/military-careers.md): notes, references, and examples about sources for tracing the careers of parliamentarian military units and personnel.
 - [authors](https://github.com/drgavinr/cc-by-data/tree/main/authors): list of over 1,900 authors of publications and theses relevant to the British Civil Wars. Most linked to Wikidata IDs. This is a subset of data from the [By The Sword Linked wiki](https://github.com/drgavinr/btsl/) released separately under a more permissive licence.
 - [bucks-loss-accounts](https://github.com/drgavinr/cc-by-data/tree/main/bucks-loss-accounts): catalogue of parish loss accounts from Buckinghamshire.
@@ -15,6 +24,7 @@ Datasets available under CC-BY and/or OGL, mostly relating to the British Civil 
   - [horses](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses): transcripts of account books listing horses contributed on the Propositions from TNA, SP 28/131.
     - [signs](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses/signs): data about building signboards in London, extracted from the horse lists in TNA, SP 28/131.
   - [south-essex](https://github.com/drgavinr/cc-by-data/tree/main/propositions/south-essex): accounts of money collected for the Propositions and '5th and 20th' assessment in the southern division of the county of Essex.
+- [sheffeild-troopers](https://github.com/drgavinr/cc-by-data/tree/main/sheffeild-troopers): data about trooper's in James Sheffeild's horse troop in Essex's army.
 
 See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/main/delimited-text.md) for more details of file formats.
 
