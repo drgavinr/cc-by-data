@@ -3,3 +3,4 @@ Data relating to pay of parliamentarian armies in the English Civil War compiled
 - [essex-army-accounts](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/essex-army-accounts): transcripts of accounts of payments made by treasurers of the Earl of Essex's army.
 - [warrants](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/warrants): catalogue of subseries of pay warrants signed by various parliamentarian army commanders and committees.
 - [military-careers](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/military-careers.md): notes, references, and examples about sources for tracing the careers of parliamentarian military units and personnel.
+- [establishment](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/establishment.md): transcript of TNA, SP 28/140/17 giving the establishment and rates of pay for the Earl of Essex's army.
