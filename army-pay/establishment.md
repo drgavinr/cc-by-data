@@ -14,6 +14,11 @@ The establishment for foot companies does not give the number of ordinary soldie
 - Headings for table columns in square brackets are editorial additions for clarity.
 - There is no deleted text in the original manuscript.
 
+## Copyright
+
+The original manuscript is Public Records in Crown Copyright. The text is available under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+The transcript provided here does not have its own copyright because it is an unoriginal copy of an existing work.
 
 # Transcript
 
