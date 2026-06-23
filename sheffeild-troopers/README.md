@@ -1,5 +1,17 @@
 # James Sheffeild's troopers
 
+## Contents
+
+- [Introduction](#introduction)
+- [Files](#files)
+- [Account transcript](#account-transcript)
+  - [Transcription conventions](#transcription-conventions)
+  - [Dates and places](#dates-and-places)
+- [Issues](#issues)
+- [Enlistments](#enlistments)
+- [Copyright](#copyright)
+
+
 ## Introduction
 
 James Sheffeild was a younger son of the Earl of Mulgrave. He was commissioned as a captain of horse in the Earl of Essex's army in 1642, and promoted to colonel in July 1643. He continued to serve until the army was reduced into the New Model Army in 1645, when his brother, Thomas, succeeded him as colonel. James's financial accounts (TNA, SP 28/140/15) were submitted and examined in 1646. They include lists of ordinary troopers in his troop.
@@ -8,7 +20,7 @@ The data provided here gives the names of troopers listed in Sheffeild's account
 
 ## Files
 
-- sheffeild-account.txt: a plain text transcript of part of the account giving details of Sheffeild's own career and the lists of troopers' names.
+- [sheffeild-account.txt](https://github.com/drgavinr/cc-by-data/blob/main/sheffeild-troopers/sheffeild-account.txt): a plain text transcript of part of the account giving details of Sheffeild's own career and the lists of troopers' names.
 - sheffeild-issues: delimited text files containing structured data derived from the above lists of troopers in Sheffeild's account.
 - sheffeild-enlistments: delimited text files containing structured data derived from the [Propositions horse account](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses) where entries have riders' names that match troopers listed in Sheffeild's account.
 
@@ -16,7 +28,7 @@ See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/m
 
 ## Account transcript
 
-sheffeild-account.txt is a transcript of TNA, SP 28/140/15, ff. 382-388. This includes a certificate of James Sheffeild's own service as an officer, and lists of names of troopers who were issued with horses and equipment. The transcript omits ff. 372-381, which include an account of salary received and disbursed.
+[sheffeild-account.txt](https://github.com/drgavinr/cc-by-data/blob/main/sheffeild-troopers/sheffeild-account.txt) is a plain text transcript of TNA, SP 28/140/15, ff. 382-388. This includes a certificate of James Sheffeild's own service as an officer, and lists of names of troopers who were issued with horses and equipment. The transcript omits ff. 372-381, which include an account of salary received and disbursed.
 
 ### Transcription conventions
 
