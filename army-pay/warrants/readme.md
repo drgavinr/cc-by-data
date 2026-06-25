@@ -1,18 +1,31 @@
 # Warrants
 
-Catalogue descriptions of subseries of parliamentarian pay warrants in [TNA, SP 28](https://discovery.nationalarchives.gov.uk/details/r/C13570). The official catalogue only describes pieces 1A to 119 at piece level. Within each piece, the warrants are sorted into subseries based on the organization that they relate to, although there are sometimes stray warrants in the wrong subseries. The data here adds this extra level for pieces 1A to 57 (1642 to 1648), giving part and folio numbers for each subseries.
+Catalogue descriptions of subseries of parliamentarian pay warrants in [TNA, SP 28](https://discovery.nationalarchives.gov.uk/details/r/C13570). The official catalogue only describes pieces 1A to 119 at piece level. Within each piece, the warrants are sorted into subseries based on the organization that they relate to, although there are sometimes stray warrants in the wrong subseries. The data here adds this extra level for pieces 1A to 57 (1642 to 1648), giving part and folio numbers for each subseries. It also adds piece-level descriptions that are more detailed than the official catalogue decriptions, giving the number of boxes and bound volumes, and the range of folio numbers.
 
 ## Contents
 
 - [File formats](#file-formats)
-- [Data structure](#data-structure)
+- [Data structures](#data-structures)
+  - [Pieces](#pieces)
+  - [Subseries](#subseries)
 - [Copyright](#copyright)
 
 ## File formats
 
 See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/main/delimited-text.md) for more details.
 
-## Data structure
+## Data structures
+
+### Pieces
+
+| Field name | Description |
+| --- | --- |
+| Reference | Full catalogue reference. |
+| Sort key | Key generated from piece number which allows entries to be sorted in ascending order. |
+| Description | Human-readable catalogue description of this piece, giving the number of boxes and bound volumes, and the range of folio numbers. |
+
+
+### Subseries
 
 | Field name | Description |
 | --- | --- |
