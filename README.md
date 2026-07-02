@@ -8,7 +8,7 @@ Datasets available under CC-BY and/or OGL, mostly relating to the British Civil 
   - [army-pay/warrants](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/warrants) now includes piece-level catalogue descriptions that are more detailed than the official catalogue.
 - 23 June 2026:
   - [army-pay](https://github.com/drgavinr/cc-by-data/tree/main/army-pay) now includes transcript of [establishment of Essex's army](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/establishment.md).
-  - added [sheffeild-troopers](https://github.com/drgavinr/cc-by-data/tree/main/sheffeild-troopers) which contains data about trooper's in James Sheffeild's horse troop in Essex's army.
+  - added [sheffeild-troopers](https://github.com/drgavinr/cc-by-data/tree/main/sheffeild-troopers) which contains data about troopers in James Sheffeild's horse troop in Essex's army.
 
 ## Contents
 
