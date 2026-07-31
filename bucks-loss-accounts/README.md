@@ -90,4 +90,4 @@ No accounts are known to survive from Newport hundred, and the only trace of a l
 
 Includes Crown Copyright data from Public Records and TNA's catalogue, available under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
-Gavin Robinson holds database right in the whole files and the structure of the data, and copyright in the documentation. These rights are waived under CC-BY.
+Gavin Robinson holds copyright in the documentation and may hold copyright or database right in the data structures and the datasets as a whole. These rights are waived under a CC-BY licence. Database right does not apply outside the UK.
