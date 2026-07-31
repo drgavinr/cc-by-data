@@ -60,4 +60,4 @@ Warrants for payment signed by the Army Committee are in a separate series in TN
 
 Includes Crown Copyright data from TNA's catalogue, available under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
-Gavin Robinson holds database right in the whole file and the structure of the data, and copyright in the documentation. These rights are waived under CC-BY.
+Gavin Robinson holds copyright in the documentation and may hold copyright or database right in the data structures and the datasets as a whole. These rights are waived under a CC-BY licence. Database right does not apply outside the UK.
