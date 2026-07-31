@@ -22,4 +22,4 @@ See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/m
 
 
 ## Copyright
-Gavin Robinson holds copyright and database right in the data, and copyright in the documentation. These rights are waived under CC-BY. This data does not include any Crown Copyright material.
+Gavin Robinson holds copyright in the documentation and may hold copyright or database right in the data structures and the datasets as a whole. These rights are waived under a CC-BY licence. Database right does not apply outside the UK. This data does not include any Crown Copyright material.
