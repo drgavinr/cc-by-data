@@ -138,4 +138,4 @@ The original documents are Public Records in Crown Copyright. The text is availa
 
 The transcript provided here does not have its own copyright because it is an unoriginal copy of existing works.
 
-Gavin Robinson holds database right in the files as a whole and the structure of the data, and copyright in the documentation. These rights are waived under a CC-BY licence.
+Gavin Robinson holds copyright in the documentation and may hold copyright or database right in the data structures and the datasets as a whole. These rights are waived under a CC-BY licence. Database right does not apply outside the UK.
