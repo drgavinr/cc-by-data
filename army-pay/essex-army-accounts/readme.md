@@ -73,25 +73,31 @@ These documents are Public Records in Crown Copyright. The text is available und
 See [delimited text documentation](https://github.com/drgavinr/cc-by-data/blob/main/delimited-text.md) for more details of file formats.
 
 - vernon-issues: issues of money by Francis Vernon, August 1642 to March 1644.
-- fenton-issues: issues of money by John Fenton, May to September 1643. 
+- fenton-issues: issues of money by John Fenton, May to September 1643.
+- index-of-people: copies of entries in both account books with keys to link people. Includes further data about ranks, arms and commanding officers.
+- list-of-people: list unique keys for 816 people in index, 96 with Wikidata IDs.
+- index-of-places: copies of entries in both account books with keys to link places. Includes further data about battles and sieges.
 
 ## Data structures
+
+### Transcripts
 
 The delimited text files contain the same fields for both account books:
 
 | Field name | Description |
 | --- | --- |
-| ID | Unique number to identify this row of data. |
+| RowID | Unique number to identify this row of data within this file. No other significance. |
+| EntryID | Identifier for each entry in each account book. These are unique across the whole dataset and are used to link the indexes to the transcripts. |
 | Markup | Codes representing the semantic structure of the document. These could be used to convert to XML, HTML, or wikitext, or to extract data into a database. See following section for more details of values. |
 | Folio | Folio number. |
 | Date | Date of account book entry in YYYY-MM-DD format. |
-| Left column | Transcript of text entered in the left hand column of the manuscript pages. In Vernon's account, this usually includes a number for each entry. The meaning of these numbers is unknown. In both accounts, this column can also include other notes. |
+| Left column | Transcript of text entered in the left hand column of the manuscript pages. In Vernon's account, this usually includes a number for each entry. These refer to folio numbers in another book, now probably lost, which indexes entries by commanding officer and unit. During record linkage, I found discrepancies that could be my transcription errors or scribal errors in the manuscript, but I no longer have page images to check. In both accounts, this column can also include other notes. |
 | Main column | Transcript of the main text of the manuscript, except that where markup is 'pb', this column contains folio numbers, which were added later by archivists and are not part of the original text. |
 | Pounds | The number of pounds for this entry. |
 | Shillings | The number of shillings for this entry. |
 | Pence | The number of pence for this entry. |
 
-### Markup
+#### Markup
 
 The 'Markup' column contains these values:
 
@@ -104,6 +110,44 @@ The 'Markup' column contains these values:
 | close table | the end of a multi-row table, including the last row and closer. Must have a matching 'open table' somewhere before it. |
 | table (single row) | the whole of a table consisting of opener, one row, and closer. |
 | p | paragraph of free text outside a table. |
+
+### Indexes
+
+Both indexes (people and places) share these standard fields:
+
+| Field name | Description |
+| --- | --- |
+| RowID | Unique number to identify this row of data within this file. No other significance. |
+| EntryID | Identifier for each entry in each account book. These are unique across the whole dataset and are used to link the indexes to the transcripts. This value can be repeated in more than one row if the entry names more than one person or place. |
+| Folio | Folio number of this entry. |
+| Date | Date of account book entry in YYYY-MM-DD format. |
+| EntryText | The full text of an entry, including left column, main column and amounts of money. This value can be repeated in more than one row if the entry names more than one person or place. |
+| Key | Unique identifier for person or place. |
+| Notes | Any other information. |
+
+#### People
+
+The index of people has these extra fields:
+
+| Field name | Description |
+| --- | --- |
+| Rank | Person's rank in standard form. Mostly military ranks but also includes wives and widows. |
+| Arm | The arm in which the person held this rank. Values: horse, foot, dragoons, artillery, pioneers, scouts. |
+| SubType | A more specific subclass of arm used in some cases. Values: cuirassiers, firelocks, halberdiers. |
+| Col | The colonel under whom a person served. Should be same as the colonel's key in the index. |
+| Capt | The captain under whom a person served. Should be same as the captain's key in the index. |
+| Status | Extra information about a person's state. Values: deceased, gent of lifeguard, late prisoner, prisoner, reformado, sick, side-changer, wounded. |
+
+List of unique people only has RowID, Key, WikidataID and Notes, which should all be clear.
+
+#### Places
+
+The index of people has this extra field:
+
+| Field name | Description |
+| --- | --- |
+| Event | Classifies an event at this place that the entry refers to. Values: battle, siege, raid. All references to Newbury are First Newbury (20 September 1643) as the account stops several months before Second Newbury. |
+
 
 ## Transcription conventions
 
