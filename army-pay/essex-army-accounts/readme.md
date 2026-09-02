@@ -123,6 +123,7 @@ Both indexes (people and places) share these standard fields:
 | --- | --- |
 | RowID | Unique number to identify this row of data within this file. No other significance. |
 | EntryID | Identifier for each entry in each account book. These are unique across the whole dataset and are used to link the indexes to the transcripts. This value can be repeated in more than one row if the entry names more than one person or place. |
+| Account | Which account this entry comes from. Values: Vernon, Fenton. |
 | Folio | Folio number of this entry. |
 | Date | Date of account book entry in YYYY-MM-DD format. |
 | EntryText | The full text of an entry, including left column, main column and amounts of money. This value can be repeated in more than one row if the entry names more than one person or place. |
@@ -168,16 +169,16 @@ The index of people has this extra field:
 
 Vernon's account provides strong and detailed evidence for the careers of individual officers and units in Essex's army. Some important facts may not be well known, and more widely used sources may be misleading. For example:
 
-- The commander of the parliamentarian forces at the siege of Portsmouth in 1642 was Sir John Meldrum, not Sir William Waller. An entry for 2 September 1642 reads, 'p[ai]d S[i]r John Meldrum Commander in cheif of the forces befor Portsmouth for on months entertainm[en]t at 40s p[er] diem commencing 15 aug[us]t last' (f. 18r, row ID 478).
-- Philip Skippon's regiment first appears in the account on 21 November 1642 (f. 38v, row IDs 1367 and 1368). The first mention of Skippon being paid as Major-General of Essex's army is in January 1642/3: 'p[ai]d major g[e]n[era]ll skippon for his pay as major g[e]n[era]ll of [th]e army for on mo[nth] beg[inning] 13 Ja[nuary] endinge [th]e 9 feb[ruary] at xls p[er] diem' (f. 51r, row ID 1969). He may have been paid earlier by Jessop, and the corresponding warrant may or may not have survived.
-- Henry Billingsley was paid as Lieutenant-Colonel in Denzil Holles's foot regiment (f. 12v, row ID 276). By 27 August 1642 he had been moved sideways to become assistant to the Major-General (f. 28r, row ID 878). Nehemiah Wharton's letter gives a misleading impression that Billingsley was removed from the army as well as the regiment.
-- There was no Colonel Fiennes in Essex's army in 1642. Nathaniel, John, and Francis were all paid only as captains of horse. Nathaniel is first given the rank of Colonel on 2 March 1642/3: 'p[ai]d Collonell nathaneel Fines uppon accompt when he went to ward glocester' (f. 54r, row ID 2105). Latest mentions as captain in 1642: Nathaniel, f. 46r, row ID 1733; John, f. 46r, row ID 1732; Francis, f. 44r, row ID 1690. This was already suggested by a contemporary printed list of army officers, but the account book is stronger evidence.
+- The commander of the parliamentarian forces at the siege of Portsmouth in 1642 was Sir John Meldrum, not Sir William Waller. An entry for 2 September 1642 reads, 'p[ai]d S[i]r John Meldrum Commander in cheif of the forces befor Portsmouth for on months entertainm[en]t at 40s p[er] diem commencing 15 aug[us]t last' (f. 18r, Entry ID V0478).
+- Philip Skippon's regiment first appears in the account on 21 November 1642, and he is already titled Major-General at this date (f. 38v, EntryIDs V1367 and V1368). The first entry in which Skippon was paid as Major-General of Essex's army is on 27 December 1642: 'for a mo[nths] pay as segeant major g[enera]ll from [th]e 15 [Decem]bre' (f. 47v, EntryID V1800). He may have been paid earlier by Jessop, and the corresponding warrant may or may not have survived.
+- Henry Billingsley was paid as Lieutenant-Colonel in Denzil Holles's foot regiment (f. 12v, EntryID V0276). By 27 August 1642 he had been moved sideways to become assistant to the Major-General (f. 28r, EntryID V0878). Nehemiah Wharton's letter gives a misleading impression that Billingsley was removed from the army as well as the regiment.
+- There was no Colonel Fiennes in Essex's army in 1642. Nathaniel, John, and Francis were all paid only as captains of horse. Nathaniel is first given the rank of Colonel on 2 March 1642/3: 'p[ai]d Collonell nathaneel Fines uppon accompt when he went to ward glocester' (f. 54r, EntryID V2105). Latest mentions as captain in 1642: Nathaniel, f. 46r, EntryID V1733; John, f. 46r, EntryID V1732; Francis, f. 44r, EntryID V1690. This was already suggested by a contemporary printed list of army officers, but the account book is stronger evidence.
 - Anthony Allen was Scoutmaster General of Essex's army before Sir Samuel Luke. Payments to Allen as Scoutmaster appear from October to December 1642. References:
-	- f. 29v, row ID 926
- 	- f. 35v, row ID 1220
- 	- f. 39v, row ID 1421
- 	- f. 41v, row ID 1502
- 	- f. 45v, row ID 1707
+	- f. 29v, EntryID V0926
+ 	- f. 35v, EntryID V1220
+ 	- f. 39v, EntryID V1421
+ 	- f. 41v, EntryID V1502
+ 	- f. 45v, EntryID V1707
 
 
 ## Copyright
