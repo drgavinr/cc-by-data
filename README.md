@@ -6,6 +6,11 @@ Datasets available under CC-BY and/or OGL, mostly relating to the British Civil 
 
 - September 2026:
   - [army-pay/essex-army-accounts](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/essex-army-accounts) now includes indexes of people and places.
+  - [propositions/horses](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses) now includes:
+    - human-readable plain text versions of horse accounts.
+    - CSV file with entries as tabular data.
+    - XSL files for creating above text and CSV files from XML.
+    - older XML files with better nesting of tags, but probably worse place identification.
 - June 2026:
   - [army-pay/warrants](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/warrants) now includes piece-level catalogue descriptions that are more detailed than the official catalogue.
   - [army-pay](https://github.com/drgavinr/cc-by-data/tree/main/army-pay) now includes transcript of [establishment of Essex's army](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/establishment.md).
