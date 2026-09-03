@@ -2,6 +2,9 @@
 
 Datasets available under CC-BY and/or OGL, mostly relating to the British Civil Wars.
 
+- [Recent additions](#recent-additions)
+- [Contents](#contents)
+
 ## Recent additions
 
 - September 2026:
