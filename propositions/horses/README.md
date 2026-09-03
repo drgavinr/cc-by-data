@@ -65,6 +65,7 @@ The original manuscripts are Public Records in Crown Copyright. The text is avai
 - extract-entries.xsl: XSL to extract entries from XML and format as CSV.
 - plain-text.xsl: XSL to transform XML to plain text files.
 - propositions-include.xsl: shared templates included in other XSL files to ensure consistent formatting of entry text.
+- [old-xml](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses/old-xml): older versions of the XML, with a separate file for each account book. These files have more logical and consistent nesting of XML tags but the keys for place name linkage are different, and the identifications of places are probably not as good. The XSL will not work properly with these older files.
 
 ## Transcription conventions
 
@@ -145,6 +146,6 @@ The original manuscripts are Public Records in Crown Copyright. The text is avai
 
 The transcript provided here does not have its own copyright because it is an unoriginal copy of existing works.
 
-No rights are believed to subsist in the structure of the XML tags. If any such rights do subsist, they are waived under a CC-BY licence.
+If any copyright or database right subsist in the structure of the XML tags, the structure of the CSV file, or the code in the XSL files, they are waived under a CC-BY licence.
 
 Gavin Robinson holds copyright in this documentation. This right is waived under CC-BY.
