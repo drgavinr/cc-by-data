@@ -85,42 +85,42 @@ The XML tags were invented for this text but are similar to TEI.
 
 After using this XML in my own research, I rearranged some of the tags to make it easier to convert names into wikilinks. This had led to some illogical and inconsistent nesting of tags. The XML is still well formed.
 
-- **texts** root element containing all other tags.
-    - **account** the whole of each manuscript account book. @ref is the archival reference.
-        - **page** one side of a physical folio in the manuscript.  @ref is the archival reference. @sublist is present if this page contains part of a sublist from local commissaries; the attribute value is the place where the sublist came from.
-            - **p** a paragraph of free text. Some text marked up as a paragraph may be semantically closer to a heading, but this XML only represents one level of heading.
-                - **date** text that represents a date. Tag contents are the original text. @when is the date in a regularized form: YYYY-MM-DD. All dates are in the Julian calendar.
-                - **name** a name of any kind of entity within a paragraph of free text. These do not have any attributes. Some may be original signatures but this is not indicated in the XML. Names in contexts other than free text paragraphs are marked up differently. See children of **entry**.
-                - **ul** list.
-                    - **li** list item. Can contain **name**.
-                - **add** addition to the text of the manuscript. Can be nested in almost any tag.
-                - **del** deleted text. Can be nested in almost any tag.
-                - **gap** gap in the text. Same as TEI gap element. @reason is human-readable explanation for the gap. @extent is human-readable description of the size of the gap. Can be nested in almost any tag.
-            - **head** a heading in the manuscript. These usually contain dates. Only one level of heading is marked up. Some text that is semantically a lower level of heading may be marked up as a paragraph (using **p**) after a heading.
-                - **date** (see above)
-            - **table** a group of entries in a page of an account book. In the original manuscript these usually have four columns: entry text, pounds, shillings, pence. SP 28/131/5 has five columns, the first of which uses the **under** tag. The subsequent four columns in this book are the same as in the other books.
-                - **entry** one entry in the account. Corresponds to one table row. @f is folio number. @id is a unique identifier for this entry. @when is date of the entry in YYYY-MM-DD form, always in the Julian calendar.
-                    - **under** the captain to whom the horses in this entry were assigned. Only used in SP 28/131/5.
-                    - **owner** one named individual who owned a listed horse. If an entry has multiple named individual owners, each is tagged separately. @id is a unique identifier for each instance of the tag, not for the owner it refers to. @key is a key used to link the same owner in multiple entries, in form "Surname, Forename (status, address)". Assumed the same person if name, status, and address match (allowing for variation in spellings). Where the name matches but status and/or address are unstated, name keys may be qualified with numbers. Some different keys may refer to the same person but did not meet the criteria for a strong match. Some place names in owner keys may not match the keys in the related **address** tag because place identification for addresses has been redone recently, but person linkage hasn't.
-                        - **forename** owner's forename.
-                        - **surname** owner's surname.
-                    - **gen** text signifying a generation, such as 'senior' or 'junior' (may sometimes be nested in **owner** but more usually found outside).
-                    - **status** text signifying any status or title before or after an owner's name. This includes peerages, knighthoods, MPs, occupational descriptors (which can be actual trade and/or company membership), marital status, military ranks and anything similar (may sometimes be nested in **owner** but more usually found outside). Can refer to more than one owner in the same entry, but the nesting of XML tags does not make this explicit.
-                    - **address** the address of an owner. Not usually nested inside **owner** tags, and may refer to more than one owner in the same entry, but the nesting of XML tags does not make this explicit. @id is a unique identifier for each instance of the tag, not for the address it refers to. @key is used to link addresses that have been identified. @couldbe links addresses that are less certainly identified. Both @key and @couldbe can contain multiple values separated by a semi-colon. Values matched page names at the By The Sword Linked wiki, which no longer exists. @CtyStrong is the county that contains the address where this is explicitly stated in the entry. Values are abbreviated and do not match any external identifiers. @CtyWeak includes counties inferred by identifying place names or from context in the manuscript. Street addresses are usually assumed to be in London. @CtyWeak can differ from @CtyStrong if the county explicitly given is judged to be a scribal error. Values for @CtyWeak matched page names at the By The Sword Linked wiki, which no longer exists. Address components are futher marked up with these tags, which are only used if a component explicitly occurs in the manuscript:
-                        - **bldg** building.
-                        - **street** street.
-                        - **sett** settlement of any size. A place name on its own is usually assumed to refer to a settlement and not to a parish of the same name unless the word 'parish' is explicitly used in the manuscript.
-                        - **parish** parish. Used only where the manuscript explicitly gives a parish.
-                        - **hund** hundred. Used only where the manuscript explicitly gives a hundred or similar administrative unit.
-                        - **cty** county.
-                    - **owners** text referring to a group of owners who listed a horse together but are not named individually. Text referring to the owners may be marked up as **name** if it is a specific named entity such as a livery company. If it refers to the inhabitants of a place, the place name should be marked up as **address** (see above) but there should be no other tags.
-                    - **horses** contains horses, riders, and equipment listed in this entry. @num is total number of horses in this entry as an integer. Text descriptions of individual horses are direct contents of this tag and are not marked up any further.
-                        - **rider** one rider of a horse. @id is a unique identifier for this rider within this dataset but does not correspond to any external identifiers. Some riders are named, others are just described as 'rider'. In either case, the text is the contents of this tag and there are no further nested tags for name components.
-                        - **equ** text describing all equipment listed in this entry. No attributes or nested tags.
-                    - **money**  value of the horses and equipment in this entry. @dec is the amount in decimalized form.
-                        - **pounds** the amount of pounds as written in the second column of the table.
-                        - **shillings** the amount of shillings as written in the third column of the table.
-                        - **pence** the amount of pence as written in the fourth column of the table. Usually 0.
+- `<texts>` root element containing all other tags.
+    - `<account>` the whole of each manuscript account book. @ref is the archival reference.
+        - `<page>` one side of a physical folio in the manuscript.  @ref is the archival reference. @sublist is present if this page contains part of a sublist from local commissaries; the attribute value is the place where the sublist came from.
+            - `<p>` a paragraph of free text. Some text marked up as a paragraph may be semantically closer to a heading, but this XML only represents one level of heading.
+                - `<date>` text that represents a date. Tag contents are the original text. @when is the date in a regularized form: YYYY-MM-DD. All dates are in the Julian calendar.
+                - `<name>` a name of any kind of entity within a paragraph of free text. These do not have any attributes. Some may be original signatures but this is not indicated in the XML. Names in contexts other than free text paragraphs are marked up differently. See children of `<entry>`.
+                - `<ul>` list.
+                    - `<li>` list item. Can contain `<name>`.
+                - `<add>` addition to the text of the manuscript. Can be nested in almost any tag.
+                - `<del>` deleted text. Can be nested in almost any tag.
+                - `<gap>` gap in the text. Same as TEI gap element. @reason is human-readable explanation for the gap. @extent is human-readable description of the size of the gap. Can be nested in almost any tag.
+            - `<head>` a heading in the manuscript. These usually contain dates. Only one level of heading is marked up. Some text that is semantically a lower level of heading may be marked up as a paragraph (using `<p>`) after a heading.
+                - `<date>` (see above)
+            - `<table>` a group of entries in a page of an account book. In the original manuscript these usually have four columns: entry text, pounds, shillings, pence. SP 28/131/5 has five columns, the first of which uses the `<under>` tag. The subsequent four columns in this book are the same as in the other books.
+                - `<entry>` one entry in the account. Corresponds to one table row. @f is folio number. @id is a unique identifier for this entry. @when is date of the entry in YYYY-MM-DD form, always in the Julian calendar.
+                    - `<under>` the captain to whom the horses in this entry were assigned. Only used in SP 28/131/5.
+                    - `<owner>` one named individual who owned a listed horse. If an entry has multiple named individual owners, each is tagged separately. @id is a unique identifier for each instance of the tag, not for the owner it refers to. @key is a key used to link the same owner in multiple entries, in form "Surname, Forename (status, address)". Assumed the same person if name, status, and address match (allowing for variation in spellings). Where the name matches but status and/or address are unstated, name keys may be qualified with numbers. Some different keys may refer to the same person but did not meet the criteria for a strong match. Some place names in owner keys may not match the keys in the related `<address>` tag because place identification for addresses has been redone recently, but person linkage hasn't.
+                        - `<forename>` owner's forename.
+                        - `<surname>` owner's surname.
+                    - `<gen>` text signifying a generation, such as 'senior' or 'junior' (may sometimes be nested in `<owner>` but more usually found outside).
+                    - `<status>` text signifying any status or title before or after an owner's name. This includes peerages, knighthoods, MPs, occupational descriptors (which can be actual trade and/or company membership), marital status, military ranks and anything similar (may sometimes be nested in `<owner>` but more usually found outside). Can refer to more than one owner in the same entry, but the nesting of XML tags does not make this explicit.
+                    - `<address>` the address of an owner. Not usually nested inside `<owner>` tags, and may refer to more than one owner in the same entry, but the nesting of XML tags does not make this explicit. @id is a unique identifier for each instance of the tag, not for the address it refers to. @key is used to link addresses that have been identified. @couldbe links addresses that are less certainly identified. Both @key and @couldbe can contain multiple values separated by a semi-colon. Values matched page names at the By The Sword Linked wiki, which no longer exists. @CtyStrong is the county that contains the address where this is explicitly stated in the entry. Values are abbreviated and do not match any external identifiers. @CtyWeak includes counties inferred by identifying place names or from context in the manuscript. Street addresses are usually assumed to be in London. @CtyWeak can differ from @CtyStrong if the county explicitly given is judged to be a scribal error. Values for @CtyWeak matched page names at the By The Sword Linked wiki, which no longer exists. Address components are futher marked up with these tags, which are only used if a component explicitly occurs in the manuscript:
+                        - `<bldg>` building.
+                        - `<street>` street.
+                        - `<sett>` settlement of any size. A place name on its own is usually assumed to refer to a settlement and not to a parish of the same name unless the word 'parish' is explicitly used in the manuscript.
+                        - `<parish>` parish. Used only where the manuscript explicitly gives a parish.
+                        - `<hund>` hundred. Used only where the manuscript explicitly gives a hundred or similar administrative unit.
+                        - `<cty>` county.
+                    - `<owners>` text referring to a group of owners who listed a horse together but are not named individually. Text referring to the owners may be marked up as `<name>` if it is a specific named entity such as a livery company. If it refers to the inhabitants of a place, the place name should be marked up as `<address>` (see above) but there should be no other tags.
+                    - `<horses>` contains horses, riders, and equipment listed in this entry. @num is total number of horses in this entry as an integer. Text descriptions of individual horses are direct contents of this tag and are not marked up any further.
+                        - `<rider>` one rider of a horse. @id is a unique identifier for this rider within this dataset but does not correspond to any external identifiers. Some riders are named, others are just described as 'rider'. In either case, the text is the contents of this tag and there are no further nested tags for name components.
+                        - `<equ>` text describing all equipment listed in this entry. No attributes or nested tags.
+                    - `<money>`  value of the horses and equipment in this entry. @dec is the amount in decimalized form.
+                        - `<pounds>` the amount of pounds as written in the second column of the table.
+                        - `<shillings>` the amount of shillings as written in the third column of the table.
+                        - `<pence>` the amount of pence as written in the fourth column of the table. Usually 0.
 
 
 ## CSV fields
