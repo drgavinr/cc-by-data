@@ -8,6 +8,7 @@ Transcripts of account books listing horses and arms contributed on the Proposit
 - [Files](#files)
 - [Transcription conventions](#transcription-conventions)
 - [XML tags](#xml-tags)
+- [CSV fields](#csv-fields)
 - [Copyright](#copyright)
 
 
