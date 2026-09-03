@@ -55,8 +55,15 @@ The original manuscripts are Public Records in Crown Copyright. The text is avai
 
 ## Files
 
-'sp28-131.xml' contains a transcript of all three account books, marked up with XML.
-
+- sp28-131.xml: transcript of all three account books, marked up with XML.
+- human-readable plain text versions of each account book:
+	- sp-28-131-3.txt
+	- sp-28-131-4.txt
+	- sp-28-131-5.txt
+- entries.csv: structured data with one row for each entry in each account book. This is **not** in the usual delimited text format. Extension is .csv and line endings are Windows, but separator is Tab and there is no text field delimiter.
+- extract-entries.xsl: XSL to extract entries from XML and format as CSV.
+- plain-text.xsl: XSL to transform XML to plain text files.
+- propositions-include.xsl: shared templates included in other XSL files to ensure consistent formatting of entry text.
 
 ## Transcription conventions
 
@@ -113,6 +120,23 @@ After using this XML in my own research, I rearranged some of the tags to make i
                         - **shillings** the amount of shillings as written in the third column of the table.
                         - **pence** the amount of pence as written in the fourth column of the table. Usually 0.
 
+
+## CSV fields
+
+The file 'entries.csv' extracts data from the XML into a more regular structure that can be used for some basic quantitative analysis. It cannot easily be used for anything involving people or places.
+
+| Field name | Description |
+| --- | --- |
+| Ref | Archival reference, including series, piece, part and folio number. |
+| Part | Part number only, from archival reference. Values: 3, 4, 5. |
+| Folio | Folio number only, from archival reference. |
+| ID | Entry ID, corresponding to @id in XML. |
+| Date | Date of the entry in YYYY-MM-DD format. All dates are in the Julian calendar. |
+| Text | The full text of the entry, including pounds, shillings and pence. |
+| Value | Decimalised form of the money value stated in this entry. |
+| Horses | Total number of horses in this entry. |
+| Riders | Total number of riders in this entry. |
+| Equipment | Substring of entry text containing only equipment listed. |
 
 ## Copyright
 
