@@ -8,6 +8,7 @@ Datasets available under CC-BY and/or OGL, mostly relating to the British Civil 
 ## Recent additions
 
 - September 2026:
+  - for Nehemiah Wharton's letters, see [TEI repository](https://github.com/drgavinr/tei-texts/tree/main/wharton).
   - [army-pay/essex-army-accounts](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/essex-army-accounts) now includes indexes of people and places.
   - [propositions/horses](https://github.com/drgavinr/cc-by-data/tree/main/propositions/horses) now includes:
     - human-readable plain text versions of horse accounts.
