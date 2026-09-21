@@ -21,7 +21,7 @@ All spellings are silently modernized. Original spellings can be found in the [P
 | Sign | The name of the sign. In the original manuscript and in normal usage these are usually prefixed with 'The' but this is omitted here. |
 | InOrNear | An address given in the manuscript that the building is in or near. Usually a street, but in a few cases it can be a parish, a settlement, or another building. |
 | Settlement | Settlement that the building is in. Nearly always London (here defined slightly more broadly than the City) but sometimes Southwark, Westminster, or another named suburb. |
-| AddrKey | A unique key composed of all components of the name. These matched page names at the By The Sword Linked wiki, which no longer exists. |
+| AddrKey | A unique key composed of all components of the name. |
 | Ref | Full archival references for mentions of this building. Can include multiple volumes, and multiple folios within the same volume. |
 
 ## Copyright
