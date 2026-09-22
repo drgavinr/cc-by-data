@@ -15,6 +15,7 @@ Datasets available under CC-BY and/or OGL, mostly relating to the British Civil 
     - CSV file with entries as tabular data.
     - XSL files for creating above text and CSV files from XML.
     - older XML files with better nesting of tags, but probably worse place identification.
+  - authors moved to [pd-data repository](https://github.com/drgavinr/pd-data/tree/main/authors) and re-released under CC0.
 - June 2026:
   - [army-pay/warrants](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/warrants) now includes piece-level catalogue descriptions that are more detailed than the official catalogue.
   - [army-pay](https://github.com/drgavinr/cc-by-data/tree/main/army-pay) now includes transcript of [establishment of Essex's army](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/establishment.md).
@@ -27,7 +28,7 @@ Datasets available under CC-BY and/or OGL, mostly relating to the British Civil 
   - [warrants](https://github.com/drgavinr/cc-by-data/tree/main/army-pay/warrants): catalogue of sub-series of pay warrants in TNA, SP 28.
   - [establishment](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/establishment.md): transcript of establishment and rates of pay for Essex's army.
   - [military-careers](https://github.com/drgavinr/cc-by-data/blob/main/army-pay/military-careers.md): notes, references, and examples about sources for tracing the careers of parliamentarian military units and personnel.
-- [authors](https://github.com/drgavinr/cc-by-data/tree/main/authors): list of over 1,900 authors of publications and theses relevant to the British Civil Wars. Most linked to Wikidata IDs.
+- authors has moved to [pd-data repository](https://github.com/drgavinr/pd-data/tree/main/authors) where it is re-released under CC0. This dataset is a list of over 1,900 authors of publications and theses relevant to the British Civil Wars, most with Wikidata IDs.
 - [bucks-loss-accounts](https://github.com/drgavinr/cc-by-data/tree/main/bucks-loss-accounts): catalogue of parish loss accounts from Buckinghamshire.
 - [compounding](https://github.com/drgavinr/cc-by-data/tree/main/compounding): structured data about cases and people listed in *Calendar of the Committee for Compounding*.
 - [nma-procurement](https://github.com/drgavinr/cc-by-data/tree/main/nma-procurement): catalogue of records of buying equipment for the New Model Army, with background information about the procurement system.
